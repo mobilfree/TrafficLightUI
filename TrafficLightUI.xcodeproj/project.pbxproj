@@ -11,6 +11,7 @@
 		ACB8C08E2727F715003EC938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8C08D2727F715003EC938 /* ContentView.swift */; };
 		ACB8C0902727F716003EC938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB8C08F2727F716003EC938 /* Assets.xcassets */; };
 		ACB8C0932727F716003EC938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB8C0922727F716003EC938 /* Preview Assets.xcassets */; };
+		ACB8C09C272977D1003EC938 /* FlashLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8C09B272977D1003EC938 /* FlashLamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ACB8C08D2727F715003EC938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACB8C08F2727F716003EC938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB8C0922727F716003EC938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACB8C09B272977D1003EC938 /* FlashLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB8C08B2727F715003EC938 /* TrafficLightUIApp.swift */,
+				ACB8C09B272977D1003EC938 /* FlashLamp.swift */,
 				ACB8C08D2727F715003EC938 /* ContentView.swift */,
 				ACB8C08F2727F716003EC938 /* Assets.xcassets */,
 				ACB8C0912727F716003EC938 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB8C08E2727F715003EC938 /* ContentView.swift in Sources */,
+				ACB8C09C272977D1003EC938 /* FlashLamp.swift in Sources */,
 				ACB8C08C2727F715003EC938 /* TrafficLightUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +291,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
